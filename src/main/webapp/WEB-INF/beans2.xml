@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+	<!-- service 용 beans.xml -->
+	<bean class="web.model.member.MemberDao" id="memberDao" /> <!-- id는 sign 값으로 맞추기 -->
+	<!-- member dao가 service를 참조하기 때문에 먼저 위치해야 함. spring xml 파일에서 ref : 참조하겠다 -->
+	<bean class="web.model.member.MemberService" id="memberService" />
+</beans>

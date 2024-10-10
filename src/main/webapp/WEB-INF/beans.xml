@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+	<bean class="web.controller.member.LoginController" id="login" /> <!-- id는 sign 값으로 맞추기 -->
+	<bean class="web.controller.member.LogoutController" id="logout" />
+	<bean class="web.controller.member.MemberInsertController" id="memberInsert" />
+	<bean class="web.controller.member.MemberDeleteController" id="memberDelete" />
+	<bean class="web.controller.board.BoardWriteController" id="boardWrite" />
+	<bean class="web.controller.board.BoardDeleteController" id="boardDelete" />
+</beans>
